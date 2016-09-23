@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--  <!DOCTYPE saludo [
+	<!ELEMENT saludo (frase, destinatario)>
+	<!ELEMENT frase (#PCDATA)>
+	<!ELEMENT destinatario (#PCDATA)>
+]>
+
+-->
+
+<!DOCTYPE saludo SYSTEM "saludo.dtd">
+<saludo>
+	<frase>Hola, como estas</frase>
+	<destinatario>Ricky</destinatario>
+</saludo>
+
+
